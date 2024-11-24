@@ -21,7 +21,7 @@ def main():
             maximum = max(scores)
             minimum = min(scores)
             average = round(sum(scores) / len(scores))
-            print(f"Min: {minimum}%\nMax: {maximum}%\nAverage: {average}%")
+            print(f"Min: {minimum}%\nAverage: {average}%\nMax: {maximum}%")
         else:
             print("Assignment not found.")
     elif menu_choice == "3":
@@ -77,7 +77,7 @@ def get_details():
         assignment_details[cont[count_for_name]] = cont[count_for_name + 1]
         grade_point[cont[count_for_code]] = cont[count_for_code + 1]
         count_for_code += 3
-        count_for_name += 2
+        count_for_name += 3
 
     return student_id, grade_point, assignment_details
 
