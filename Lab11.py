@@ -4,7 +4,7 @@ import os
 def main():
     print("""1. Student grade
 2. Assignment statistics
-3. Assignment graph 
+3. Assignment graph
 """)
     menu_choice = input("Enter your selection: ")
 
@@ -21,7 +21,7 @@ def main():
             maximum = max(scores)
             minimum = min(scores)
             average = round(sum(scores) / len(scores))
-            print(f"Min: {minimum}%\nAverage: {average}%\nMax: {maximum}%")
+            print(f"Min: {minimum}%\nAvg: {average}%\nMax: {maximum}%")
         else:
             print("Assignment not found.")
     elif menu_choice == "3":
